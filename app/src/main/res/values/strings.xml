@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Beleaf</string>
+    <string name="title_news">News</string>
+    <string name="title_footprint">Footprint</string>
+    <string name="title_forest">Forest</string>
+    <string name="title_goals">Goals</string>
+    <string name="title_me">Me</string>
+    <string name="continue_btn"><![CDATA[Continue]]></string>
+</resources>
