@@ -14,9 +14,13 @@
             android:label="@string/title_forest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="edu.umass.cs325.beleaf.News"
+            android:label="@string/title_activity_news"></activity>
     </application>
 
 </manifest>

@@ -6,4 +6,11 @@
     <string name="title_goals">Goals</string>
     <string name="title_me">Me</string>
     <string name="continue_btn"><![CDATA[Continue]]></string>
+    <string name="title_activity_news">News</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="news_headline1">Donald Trump: \"My name is Donald Trump\"</string>
+    <string name="news_headline2">World\'s last panda is dead</string>
+    <string name="news_headline3">The last ice cube ever melted away</string>
 </resources>
