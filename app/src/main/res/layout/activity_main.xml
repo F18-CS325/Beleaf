@@ -5,7 +5,6 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorDarkGrey3"
     tools:context="edu.umass.cs325.beleaf.MainActivity">
 
     <View
@@ -45,9 +44,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="?android:attr/windowBackground"
-        app:itemBackground="@color/colorDarkGrey3"
-        app:itemIconTint="@color/colorBrightGreen"
-        app:itemTextColor="@color/colorBrightGreen"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

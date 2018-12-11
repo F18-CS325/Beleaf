@@ -8,15 +8,4 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="BeleafTheme" parent="AppTheme" >
-        <item name="colorPrimary">@color/Grey3</item>
-        <item name="colorPrimaryDark">@color/colorDarkGrey1</item>
-        <item name="colorAccent">@color/colorBrightGreen</item>
-        <item name="android:colorBackground">@color/colorDarkGrey2</item>
-        <item name="android:textColorPrimaryInverse">@color/Black1</item>
-        <item name="android:textColorPrimary">@color/White1</item>
-        <item name="android:textColorSecondaryInverse">@color/White2</item>
-        <item name="android:textColorSecondary">@color/White2</item>
-    </style>
-
 </resources>

@@ -3,14 +3,4 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="colorBrightGreen">#00c853</color>
-    <color name="colorLightGreen">#A5C782</color>
-    <color name="colorDarkGrey1">#212121</color>
-    <color name="colorDarkGrey2">#222832</color>
-    <color name="colorDarkGrey3">#263238</color>
-    <color name="primary_text_default_material_dark">#ffffff</color>
-    <color name="Grey3">#263238</color>
-    <color name="White1">#cfd8dc</color>
-    <color name="Black1">#000000</color>
-    <color name="White2">#b0bec5</color>
 </resources>
