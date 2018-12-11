@@ -20,7 +20,8 @@
         </activity>
         <activity
             android:name="edu.umass.cs325.beleaf.News"
-            android:label="@string/title_activity_news"></activity>
+            android:label="@string/title_activity_news"
+            android:theme="@style/BeleafTheme"></activity>
     </application>
 
 </manifest>
