@@ -319,12 +319,12 @@
             android:id="@+id/leaf1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
             android:layout_weight="0"
             android:tint="@android:color/white"
             app:srcCompat="@drawable/ic_leaf"
-            tools:tint="@android:color/holo_green_light"
-            android:layout_marginStart="8dp" />
+            tools:tint="@android:color/holo_green_light" />
 
         <TextView
             android:id="@+id/tip4"
