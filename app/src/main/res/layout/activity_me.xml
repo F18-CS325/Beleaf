@@ -52,11 +52,21 @@
                         android:id="@+id/textView6"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
+                        android:layout_weight="0"
                         android:text="TextView"
                         android:textStyle="bold"
                         app:fontFamily="@font/montserrat"
                         tools:text="20" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="0"
+                        android:tint="@android:color/white"
+                        app:srcCompat="@drawable/ic_leaf"
+                        tools:tint="@android:color/holo_green_light" />
 
                 </LinearLayout>
 
@@ -70,11 +80,20 @@
                         android:id="@+id/textView7"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_weight="2"
+                        android:layout_weight="0"
                         android:text="TextView"
                         android:textStyle="bold"
                         app:fontFamily="@font/montserrat"
                         tools:text="4" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="0"
+                        android:tint="@android:color/holo_red_light"
+                        app:srcCompat="@drawable/ic_seed" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -87,11 +106,20 @@
                         android:id="@+id/textView8"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
+                        android:layout_weight="0"
                         android:text="TextView"
                         android:textStyle="bold"
                         app:fontFamily="@font/montserrat"
                         tools:text="45" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="0"
+                        android:tint="@android:color/holo_blue_bright"
+                        app:srcCompat="@drawable/ic_raindrop" />
 
                 </LinearLayout>
             </LinearLayout>
