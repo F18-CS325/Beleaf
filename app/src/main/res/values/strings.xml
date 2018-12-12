@@ -14,4 +14,22 @@
     <string name="news_headline2">World\'s last panda is dead</string>
     <string name="news_headline3">The last ice cube ever melted away</string>
     <string name="title_activity_me">Me</string>
+    <string name="title_activity_goals">activity_goals</string>
+    <string name="goals">save the earth!</string>
+    <string name="val3">TextView</string>
+    <string name="val6">TextView</string>
+    <string name="val4">TextView</string>
+    <string name="tip6">TextView</string>
+    <string name="val7">TextView</string>
+    <string name="val5">TextView</string>
+    <string name="tip1">TextView</string>
+    <string name="tip5">TextView</string>
+    <string name="read">TextView</string>
+    <string name="reuse">TextView</string>
+    <string name="tip4">TextView</string>
+    <string name="tip7">TextView</string>
+    <string name="val1">TextView</string>
+    <string name="reduce">TextView</string>
+    <string name="val2">TextView</string>
+    <string name="tip2">TextView</string>
 </resources>
