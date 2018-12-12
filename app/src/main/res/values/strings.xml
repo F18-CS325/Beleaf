@@ -13,4 +13,5 @@
     <string name="news_headline1">Donald Trump: \"My name is Donald Trump\"</string>
     <string name="news_headline2">World\'s last panda is dead</string>
     <string name="news_headline3">The last ice cube ever melted away</string>
+    <string name="title_activity_me">Me</string>
 </resources>

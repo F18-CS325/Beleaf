@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_app_round"
         android:supportsRtl="true">
         <activity
-            android:name="edu.umass.cs325.beleaf.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/title_forest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,8 +18,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="edu.umass.cs325.beleaf.News"
-            android:label="@string/title_activity_news"></activity>
+            android:name=".News"
+            android:label="@string/title_activity_news"
+            android:theme="@style/Beleaf1Theme" />
+        <activity
+            android:name=".Me"
+            android:label="@string/title_activity_me"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
