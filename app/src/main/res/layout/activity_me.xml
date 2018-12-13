@@ -15,7 +15,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="32dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,102 +30,90 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                tools:srcCompat="@tools:sample/avatars" />
-
-            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="16dp"
-                android:layout_weight="10"
-                android:orientation="vertical">
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                tools:srcCompat="@tools:sample/avatars" />
 
-                <LinearLayout
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center">
+
+                <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="24dp"
-                    android:layout_weight="0"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent"
+                    android:padding="6dp">
 
                     <TextView
                         android:id="@+id/textView6"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0"
+                        android:layout_height="wrap_content"
                         android:text="TextView"
-                        android:textStyle="bold"
+                        android:textSize="18sp"
                         app:fontFamily="@font/montserrat"
-                        tools:text="20" />
+                        tools:text="@string/me_num_leaf" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:tint="@android:color/holo_green_light"
+                        app:srcCompat="@drawable/ic_leaf" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="6dp">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textSize="18sp"
+                        app:fontFamily="@font/montserrat"
+                        tools:text="@string/me_num_raindrop" />
 
                     <ImageView
                         android:id="@+id/imageView6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_weight="0"
-                        android:tint="@android:color/white"
-                        app:srcCompat="@drawable/ic_leaf"
-                        tools:tint="@android:color/holo_green_light" />
+                        android:layout_marginLeft="6dp"
+                        android:tint="@android:color/holo_blue_bright"
+                        app:srcCompat="@drawable/ic_raindrop" />
+                </TableRow>
 
-                </LinearLayout>
-
-                <LinearLayout
+                <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:layout_weight="0"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent"
+                    android:padding="6dp">
 
                     <TextView
-                        android:id="@+id/textView7"
+                        android:id="@+id/textView8"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0"
+                        android:layout_height="wrap_content"
                         android:text="TextView"
-                        android:textStyle="bold"
+                        android:textSize="18sp"
                         app:fontFamily="@font/montserrat"
-                        tools:text="4" />
+                        tools:text="@string/me_num_seed" />
 
                     <ImageView
                         android:id="@+id/imageView7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_weight="0"
                         android:tint="@android:color/holo_red_light"
-                        app:srcCompat="@drawable/ic_seed" />
-                </LinearLayout>
+                        app:srcCompat="@drawable/ic_seed"
+                        android:layout_marginLeft="6dp" />
+                </TableRow>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:layout_weight="0"
-                    android:orientation="horizontal">
+            </TableLayout>
 
-                    <TextView
-                        android:id="@+id/textView8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0"
-                        android:text="TextView"
-                        android:textStyle="bold"
-                        app:fontFamily="@font/montserrat"
-                        tools:text="45" />
-
-                    <ImageView
-                        android:id="@+id/imageView8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="8dp"
-                        android:layout_weight="0"
-                        android:tint="@android:color/holo_blue_bright"
-                        app:srcCompat="@drawable/ic_raindrop" />
-
-                </LinearLayout>
-            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -138,7 +126,7 @@
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView"
                 app:fontFamily="@font/montserrat"
@@ -147,7 +135,7 @@
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="4dp"
                 android:text="TextView"
@@ -166,7 +154,7 @@
 
             <TextView
                 android:id="@+id/textView9"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView"
                 app:fontFamily="@font/montserrat"
@@ -180,7 +168,7 @@
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="4dp"
                     android:layout_weight="1"
@@ -192,7 +180,7 @@
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="4dp"
                     android:layout_weight="1"

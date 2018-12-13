@@ -14,4 +14,7 @@
     <string name="news_headline2">World\'s last panda is dead</string>
     <string name="news_headline3">The last ice cube ever melted away</string>
     <string name="title_activity_me">Me</string>
+    <string name="me_num_seed">25</string>
+    <string name="me_num_raindrop">40</string>
+    <string name="me_num_leaf">5</string>
 </resources>
