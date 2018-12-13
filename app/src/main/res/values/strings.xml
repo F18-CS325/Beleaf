@@ -34,4 +34,9 @@
     <string name="tip2">shower less than 10 minutes</string>
     <string name="tip3">shower less than 5 minutes</string>
     <string name="email_value">m*******@umass.edu</string>
+    <string name="me_num_seed">25</string>
+    <string name="me_num_raindrop">40</string>
+    <string name="me_num_leaf">5</string>
+    <string name="news_article1image">image</string>
+    <string name="email">email</string>
 </resources>
