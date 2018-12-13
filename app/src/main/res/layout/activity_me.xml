@@ -53,7 +53,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="0"
-                        android:text="TextView"
+                        android:text="20"
                         android:textStyle="bold"
                         app:fontFamily="@font/montserrat"
                         tools:text="20" />
@@ -81,7 +81,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="0"
-                        android:text="TextView"
+                        android:text="4"
                         android:textStyle="bold"
                         app:fontFamily="@font/montserrat"
                         tools:text="4" />
@@ -107,7 +107,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="0"
-                        android:text="TextView"
+                        android:text="45"
                         android:textStyle="bold"
                         app:fontFamily="@font/montserrat"
                         tools:text="45" />
@@ -137,7 +137,7 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="email"
                 app:fontFamily="@font/montserrat"
                 tools:text="email" />
 
@@ -147,10 +147,9 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="4dp"
-                android:text="TextView"
+                android:text="@string/email_value"
                 android:textSize="24sp"
-                app:fontFamily="@font/montserrat"
-                tools:text="m*******@umass.edu" />
+                app:fontFamily="@font/montserrat" />
         </LinearLayout>
 
         <LinearLayout
@@ -165,7 +164,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="password"
                 app:fontFamily="@font/montserrat"
                 tools:text="password" />
 
@@ -181,7 +180,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="4dp"
                     android:layout_weight="1"
-                    android:text="TextView"
+                    android:text="reset"
                     android:textSize="24sp"
                     app:fontFamily="@font/montserrat"
                     tools:text="reset" />
@@ -193,7 +192,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="4dp"
                     android:layout_weight="1"
-                    android:text="TextView"
+                    android:text="2fa"
                     android:textSize="24sp"
                     app:fontFamily="@font/montserrat"
                     tools:text="2fa" />

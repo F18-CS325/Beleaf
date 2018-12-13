@@ -47,7 +47,7 @@
         tools:tint="@android:color/holo_green_light" />
 
     <LinearLayout
-        android:id="@+id/layout3"
+        android:id="@+id/container2"
         android:layout_width="324dp"
         android:layout_height="35dp"
         android:layout_marginEnd="8dp"
@@ -84,7 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="0"
-            android:text="TextView"
+            android:text="shower less than 5 minutes"
             android:textStyle="bold"
             app:fontFamily="@font/montserrat"
             tools:text="shower less than 5 minutes" />
