@@ -11,4 +11,9 @@
 .DS_Store
 /build
 /captures
+/gradle
+gradlew
+gradlew.bat
+settings.gradle
+gradle.properties
 .externalNativeBuild
