@@ -1,10 +1,17 @@
 package edu.umass.cs325.beleaf;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import edu.umass.cs325.beleaf.R;
@@ -47,6 +54,15 @@ public class Goals extends AppCompatActivity {
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+        LinearLayout alertButton = (LinearLayout) findViewById(R.id.linearLayout6);
+        alertButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+                DialogFragment dFragment = new dFragment();
+                dFragment.show(getSupportFragmentManager(), "alert dialog");
+            }
+        });
     }
 
 }
