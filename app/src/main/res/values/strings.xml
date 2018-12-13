@@ -39,4 +39,7 @@
     <string name="me_num_leaf">5</string>
     <string name="news_article1image">image</string>
     <string name="email">email</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
