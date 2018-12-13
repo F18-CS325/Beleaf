@@ -53,7 +53,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="right|center_horizontal"
-                        android:text="TextView"
+                        android:text="5"
                         android:textSize="18sp"
                         app:fontFamily="@font/montserrat"
                         tools:text="@string/me_num_leaf" />
@@ -78,7 +78,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="right|center_horizontal"
-                        android:text="TextView"
+                        android:text="40"
                         android:textSize="18sp"
                         app:fontFamily="@font/montserrat"
                         tools:text="@string/me_num_raindrop" />
@@ -103,7 +103,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="right|center_horizontal"
-                        android:text="TextView"
+                        android:text="25"
                         android:textSize="18sp"
                         app:fontFamily="@font/montserrat"
                         tools:text="@string/me_num_seed" />
@@ -134,7 +134,7 @@
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="@string/email"
                 app:fontFamily="@font/montserrat"
                 tools:text="email" />
 
@@ -144,7 +144,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="4dp"
-                android:text="TextView"
+                android:text="m*******@umass.edu"
                 android:textSize="24sp"
                 app:fontFamily="@font/montserrat"
                 tools:text="m*******@umass.edu" />
@@ -162,7 +162,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="password"
                 app:fontFamily="@font/montserrat"
                 tools:text="password" />
 
@@ -178,7 +178,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="4dp"
                     android:layout_weight="1"
-                    android:text="TextView"
+                    android:text="reset"
                     android:textSize="24sp"
                     app:fontFamily="@font/montserrat"
                     tools:text="reset" />
@@ -190,7 +190,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="4dp"
                     android:layout_weight="1"
-                    android:text="TextView"
+                    android:text="2fa"
                     android:textSize="24sp"
                     app:fontFamily="@font/montserrat"
                     tools:text="2fa" />
