@@ -19,24 +19,34 @@ public class Footprint extends AppCompatActivity {
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
-        @Override
+
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_news:
-                    mTextMessage.setText(R.string.title_news);
-                    return true;
+                    Intent intentNews = new Intent(Footprint.this, News.class);
+                    startActivity(intentNews);
+                    //mTextMessage.setText(R.string.title_news);
+                    break;
                 case R.id.navigation_footprint:
-                    mTextMessage.setText(R.string.title_footprint);
-                    return true;
+                    Intent intentFoot = new Intent(Footprint.this, Footprint.class);
+                    startActivity(intentFoot);
+                    //mTextMessage.setText(R.string.title_footprint);
+                    break;
                 case R.id.navigation_forest:
-                    mTextMessage.setText(R.string.title_forest);
-                    return true;
+                    Intent intentForest = new Intent(Footprint.this, MainActivity.class);
+                    startActivity(intentForest);
+                    //mTextMessage.setText(R.string.title_forest);
+                    break;
                 case R.id.navigation_goals:
-                    mTextMessage.setText(R.string.title_goals);
-                    return true;
+                    Intent intentGoal = new Intent(Footprint.this, Goals.class);
+                    startActivity(intentGoal);
+                    //mTextMessage.setText(R.string.title_goals);
+                    break;
                 case R.id.navigation_me:
-                    mTextMessage.setText(R.string.title_me);
-                    return true;
+                    Intent intentMe = new Intent(Footprint.this, Me.class);
+                    startActivity(intentMe);
+                    //mTextMessage.setText(R.string.title_me);
+                    break;
             }
             return false;
         }
