@@ -110,10 +110,10 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="4dp"
                             android:gravity="left|center_vertical"
-                            android:text="TextView"
+                            android:text="@string/reduce_goal1"
                             android:textSize="14sp"
                             app:fontFamily="@font/montserrat"
-                            tools:text="turn off the faucet while brushing" />
+                            tools:text="@string/reduce_goal1" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -179,10 +179,10 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="4dp"
                             android:gravity="left|center_vertical"
-                            android:text="TextView"
+                            android:text="@string/reduce_goal2"
                             android:textSize="14sp"
                             app:fontFamily="@font/montserrat"
-                            tools:text="shower less than 10 minutes" />
+                            tools:text="@string/reduce_goal2" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -248,10 +248,10 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="4dp"
                             android:gravity="left|center_vertical"
-                            android:text="TextView"
+                            android:text="@string/reduce_goal3"
                             android:textSize="14sp"
                             app:fontFamily="@font/montserrat"
-                            tools:text="shower less than 5 minutes" />
+                            tools:text="@string/reduce_goal3" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -335,10 +335,10 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="4dp"
                             android:gravity="left|center_vertical"
-                            android:text="TextView"
+                            android:text="@string/reuse_goal1"
                             android:textSize="14sp"
                             app:fontFamily="@font/montserrat"
-                            tools:text="fill a reusable coffee mug" />
+                            tools:text="@string/reuse_goal1" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -401,10 +401,10 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="4dp"
                             android:gravity="left|center_vertical"
-                            android:text="TextView"
+                            android:text="@string/reuse_goal2"
                             android:textSize="14sp"
                             app:fontFamily="@font/montserrat"
-                            tools:text="shop with a reusable tote bag" />
+                            tools:text="@string/reuse_goal2" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -467,10 +467,10 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="4dp"
                             android:gravity="left|center_vertical"
-                            android:text="TextView"
+                            android:text="@string/reuse_goal3"
                             android:textSize="14sp"
                             app:fontFamily="@font/montserrat"
-                            tools:text="use a reusable water bottle" />
+                            tools:text="@string/reuse_goal3" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -549,10 +549,10 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="4dp"
                             android:gravity="left|center_vertical"
-                            android:text="TextView"
+                            android:text="@string/read_goal1"
                             android:textSize="14sp"
                             app:fontFamily="@font/montserrat"
-                            tools:text="read an article about solar energy" />
+                            tools:text="@string/read_goal1" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -617,10 +617,10 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="4dp"
                             android:gravity="left|center_vertical"
-                            android:text="TextView"
+                            android:text="@string/read_goal2"
                             android:textSize="14sp"
                             app:fontFamily="@font/montserrat"
-                            tools:text="read an article about deforestation" />
+                            tools:text="@string/read_goal2" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -686,10 +686,10 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="4dp"
                             android:gravity="left|center_vertical"
-                            android:text="TextView"
+                            android:text="@string/read_goal3"
                             android:textSize="14sp"
                             app:fontFamily="@font/montserrat"
-                            tools:text="read an article about the EPA" />
+                            tools:text="@string/read_goal3" />
                     </LinearLayout>
 
                     <LinearLayout

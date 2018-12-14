@@ -2,7 +2,7 @@
     <string name="app_name">Beleaf</string>
     <string name="title_news">news</string>
     <string name="title_footprint">footprint</string>
-    <string name="title_forest">Forest</string>
+    <string name="title_forest">forest</string>
     <string name="title_goals">goals</string>
     <string name="title_me">me</string>
     <string name="continue_btn"><![CDATA[Continue]]></string>
@@ -45,4 +45,13 @@
     <string name="title_activity_footprint">Footprint</string>
     <string name="goals_button_claim">claim</string>
     <string name="goals_button_nudge">set nudge</string>
+    <string name="reduce_goal1">turn off the faucet while brushing</string>
+    <string name="reduce_goal2">shower less than 10 minutes</string>
+    <string name="reduce_goal3">shower less than 5 minutes</string>
+    <string name="reuse_goal1">fill a reusable coffee mug</string>
+    <string name="reuse_goal2">shop with a reusable tote bag</string>
+    <string name="reuse_goal3">use a reusable water bottle</string>
+    <string name="read_goal1">read an article about solar energy</string>
+    <string name="read_goal2">read an article about carbon emissions</string>
+    <string name="read_goal3">read an article about the EPA</string>
 </resources>
