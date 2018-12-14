@@ -54,7 +54,7 @@ public class Goals extends AppCompatActivity {
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-
+/*
         LinearLayout alertButton = (LinearLayout) findViewById(R.id.linearLayout6);
         alertButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,7 +62,7 @@ public class Goals extends AppCompatActivity {
                 DialogFragment dFragment = new dFragment();
                 dFragment.show(getSupportFragmentManager(), "alert dialog");
             }
-        });
+        });*/
     }
 
 }
