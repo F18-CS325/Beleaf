@@ -4,15 +4,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-public class Footprint extends AppCompatActivity {
+public class Footprint2 extends AppCompatActivity {
 
     private TextView mTextMessage;
 
@@ -45,7 +45,7 @@ public class Footprint extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_footprint);
+        setContentView(R.layout.activity_footprint2);
 
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
@@ -55,8 +55,17 @@ public class Footprint extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                Intent intent=new Intent(Footprint.this,Footprint2.class);
+                Intent intent=new Intent(Footprint2.this,Footprint3.class);
                 startActivity(intent);
+            }
+        });
+
+        final ImageView carButton = (ImageView) findViewById(R.id.carbutton);
+        carButton.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                carButton.setPressed(true);
+                return true;
             }
         });
     }

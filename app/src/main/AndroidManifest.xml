@@ -58,6 +58,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Footprint2"
+            android:label="footprint"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Footprint3"
+            android:label="footprint"
+            android:theme="@style/Theme.AppCompat"></activity>
     </application>
 
 </manifest>
