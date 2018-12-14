@@ -44,6 +44,13 @@
     <string name="title_activity_footprint2">Footprint2</string>
     <string name="title_activity_footprint3">Footprint3</string>
     <string name="car">What kind of car do you drive?</string>
+    <string name="skip_btn">Skip</string>
+    <string name="year">Year</string>
+    <string name="make">Make</string>
+    <string name="model">Model</string>
+    <string name="distance">How far do you travel every day?</string>
+    <string name="start_address">Start Address</string>
+    <string name="end_address">End Address</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -59,4 +66,6 @@
     <string name="read_goal1">read an article about solar energy</string>
     <string name="read_goal2">read an article about carbon emissions</string>
     <string name="read_goal3">read an article about the EPA</string>
+    <string name="title_activity_footprint4">Footprint4</string>
+    <string name="title_home">Home</string>
 </resources>

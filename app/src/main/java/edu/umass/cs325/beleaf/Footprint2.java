@@ -70,6 +70,15 @@ public class Footprint2 extends AppCompatActivity {
             }
         });
 
+        Button skipbutton = (Button) findViewById(R.id.skipbutton);
+        skipbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+                Intent intent=new Intent(Footprint2.this,Footprint4.class);
+                startActivity(intent);
+            }
+        });
+
         final ImageView carButton = (ImageView) findViewById(R.id.carbutton);
         carButton.setOnTouchListener(new View.OnTouchListener() {
             @Override
