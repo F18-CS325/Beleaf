@@ -1,5 +1,6 @@
 package edu.umass.cs325.beleaf;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -16,29 +17,38 @@ public class News extends AppCompatActivity {
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
-        @Override
+
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_news:
-                    mTextMessage.setText(R.string.title_news);
-                    return true;
+                    Intent intentNews = new Intent(News.this, News.class);
+                    startActivity(intentNews);
+                    //mTextMessage.setText(R.string.title_news);
+                    break;
                 case R.id.navigation_footprint:
-                    mTextMessage.setText(R.string.title_footprint);
-                    return true;
+                    Intent intentFoot = new Intent(News.this, Footprint.class);
+                    startActivity(intentFoot);
+                    //mTextMessage.setText(R.string.title_footprint);
+                    break;
                 case R.id.navigation_forest:
-                    mTextMessage.setText(R.string.title_forest);
-                    return true;
+                    Intent intentForest = new Intent(News.this, MainActivity.class);
+                    startActivity(intentForest);
+                    //mTextMessage.setText(R.string.title_forest);
+                    break;
                 case R.id.navigation_goals:
-                    mTextMessage.setText(R.string.title_goals);
-                    return true;
+                    Intent intentGoal = new Intent(News.this, Goals.class);
+                    startActivity(intentGoal);
+                    //mTextMessage.setText(R.string.title_goals);
+                    break;
                 case R.id.navigation_me:
-                    mTextMessage.setText(R.string.title_me);
-                    return true;
+                    Intent intentMe = new Intent(News.this, Me.class);
+                    startActivity(intentMe);
+                    //mTextMessage.setText(R.string.title_me);
+                    break;
             }
             return false;
         }
     };
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

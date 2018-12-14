@@ -1,5 +1,6 @@
 package edu.umass.cs325.beleaf;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -24,28 +25,37 @@ public class MainActivity extends AppCompatActivity {
     int[] images={R.drawable.imageone,R.drawable.imagetwo,R.drawable.imagethree};
     String[] text={"Here is your Forest! Feed it water, seeds and leaves to make it grow!", "Good Job! Forest Growing!", "Forest Dying! Feed it more water!"};
 
-
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
-        @Override
+
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_news:
-                    mTextMessage.setText(R.string.title_news);
-                    return true;
+                    Intent intentNews = new Intent(MainActivity.this, News.class);
+                    startActivity(intentNews);
+                    //mTextMessage.setText(R.string.title_news);
+                    break;
                 case R.id.navigation_footprint:
-                    mTextMessage.setText(R.string.title_footprint);
-                    return true;
+                    Intent intentFoot = new Intent(MainActivity.this, Footprint.class);
+                    startActivity(intentFoot);
+                    //mTextMessage.setText(R.string.title_footprint);
+                    break;
                 case R.id.navigation_forest:
-                    mTextMessage.setText(R.string.title_forest);
-                    return true;
+                    Intent intentForest = new Intent(MainActivity.this, MainActivity.class);
+                    startActivity(intentForest);
+                    //mTextMessage.setText(R.string.title_forest);
+                    break;
                 case R.id.navigation_goals:
-                    mTextMessage.setText(R.string.title_goals);
-                    return true;
+                    Intent intentGoal = new Intent(MainActivity.this, Goals.class);
+                    startActivity(intentGoal);
+                    //mTextMessage.setText(R.string.title_goals);
+                    break;
                 case R.id.navigation_me:
-                    mTextMessage.setText(R.string.title_me);
-                    return true;
+                    Intent intentMe = new Intent(MainActivity.this, Me.class);
+                    startActivity(intentMe);
+                    //mTextMessage.setText(R.string.title_me);
+                    break;
             }
             return false;
         }
