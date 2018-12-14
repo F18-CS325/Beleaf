@@ -65,6 +65,10 @@
         <activity
             android:name=".Footprint3"
             android:label="footprint"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Footprint4"
+            android:label="footprint"
             android:theme="@style/Theme.AppCompat"></activity>
     </application>
 
