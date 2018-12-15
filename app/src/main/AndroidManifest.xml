@@ -69,7 +69,19 @@
         <activity
             android:name=".Footprint4"
             android:label="footprint"
-            android:theme="@style/Theme.AppCompat"></activity>
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Footprint5"
+            android:label="footprint"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Footprint6"
+            android:label="footprint"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Footprint7"
+            android:label="footprint"
+            android:theme="@style/Theme.AppCompat"/>
     </application>
 
 </manifest>
