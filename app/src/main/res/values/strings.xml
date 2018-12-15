@@ -77,4 +77,13 @@
     <string name="title_activity_footprint5">Footprint5</string>
     <string name="title_activity_footprint6">Footprint6</string>
     <string name="title_activity_footprint7">Footprint7</string>
+    <string name="reduce_goal1_value">5</string>
+    <string name="reduce_goal2_value">20</string>
+    <string name="reduce_goal3_value">25</string>
+    <string name="reuse_goal1_value">3</string>
+    <string name="reuse_goal2_value">3</string>
+    <string name="reuse_goal3_value">3</string>
+    <string name="read_goal1_value">4</string>
+    <string name="read_goal2_value">6</string>
+    <string name="read_goal3_value">1</string>
 </resources>
