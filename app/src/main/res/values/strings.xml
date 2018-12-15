@@ -57,6 +57,12 @@
     <string name="teethbrushing">Do you leave the faucet on when you brush your teeth?</string>
     <string name="cont_stats">Continue to stats page</string>
     <string name="stats_desc">All set! Check out the goals tab to claim resources for doing sustainable acts.</string>
+    <string name="update_stats">Update Stats</string>
+    <string name="weekly_stats">weekly stats</string>
+    <string name="gas_stat">gas usage</string>
+    <string name="water_stat">water usage</string>
+    <string name="you">you</string>
+    <string name="user_avg">user average</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -86,4 +92,5 @@
     <string name="read_goal1_value">4</string>
     <string name="read_goal2_value">6</string>
     <string name="read_goal3_value">1</string>
+    <string name="title_activity_stats">Stats</string>
 </resources>

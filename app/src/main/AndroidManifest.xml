@@ -81,7 +81,11 @@
         <activity
             android:name=".Footprint7"
             android:label="footprint"
-            android:theme="@style/Theme.AppCompat"/>
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Stats"
+            android:label="stats"
+            android:theme="@style/Theme.AppCompat"></activity>
     </application>
 
 </manifest>
