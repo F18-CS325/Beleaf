@@ -18,8 +18,7 @@ public class ClaimGoalDialog extends DialogFragment {
                 // Positive button
                 .setPositiveButton("claim", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        DialogFragment dFragment = new ClaimGoalDialog();
-                        dFragment.show(getSupportFragmentManager(), "alert dialog");
+                        // Should do something but it's okay if it does nothing
                     }
                 })
 
