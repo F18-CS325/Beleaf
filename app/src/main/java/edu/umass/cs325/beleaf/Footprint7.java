@@ -6,11 +6,9 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
-public class Footprint4 extends AppCompatActivity {
+public class Footprint7 extends AppCompatActivity {
 
     private TextView mTextMessage;
 
@@ -21,27 +19,27 @@ public class Footprint4 extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_news:
-                    Intent intentNews = new Intent(Footprint4.this, News.class);
+                    Intent intentNews = new Intent(Footprint7.this, News.class);
                     startActivity(intentNews);
                     //mTextMessage.setText(R.string.title_news);
                     break;
                 case R.id.navigation_footprint:
-                    Intent intentFoot = new Intent(Footprint4.this, Footprint.class);
+                    Intent intentFoot = new Intent(Footprint7.this, Footprint.class);
                     startActivity(intentFoot);
                     //mTextMessage.setText(R.string.title_footprint);
                     break;
                 case R.id.navigation_forest:
-                    Intent intentForest = new Intent(Footprint4.this, MainActivity.class);
+                    Intent intentForest = new Intent(Footprint7.this, MainActivity.class);
                     startActivity(intentForest);
                     //mTextMessage.setText(R.string.title_forest);
                     break;
                 case R.id.navigation_goals:
-                    Intent intentGoal = new Intent(Footprint4.this, Goals.class);
+                    Intent intentGoal = new Intent(Footprint7.this, Goals.class);
                     startActivity(intentGoal);
                     //mTextMessage.setText(R.string.title_goals);
                     break;
                 case R.id.navigation_me:
-                    Intent intentMe = new Intent(Footprint4.this, Me.class);
+                    Intent intentMe = new Intent(Footprint7.this, Me.class);
                     startActivity(intentMe);
                     //mTextMessage.setText(R.string.title_me);
                     break;
@@ -50,24 +48,14 @@ public class Footprint4 extends AppCompatActivity {
         }
     };
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_footprint4);
+        setContentView(R.layout.activity_footprint7);
 
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-
-        Button button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent intent=new Intent(Footprint4.this,Footprint5.class);
-                startActivity(intent);
-            }
-        });
     }
 
 }

@@ -83,6 +83,8 @@
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
                         android:onClick="claimAchievedGoal"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -156,6 +158,8 @@
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
                         android:onClick="claimAchievedGoal"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -226,6 +230,8 @@
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
                         android:onClick="claimAchievedGoal"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -312,6 +318,8 @@
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
                         android:onClick="claimAchievedGoal"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -382,6 +390,8 @@
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
                         android:onClick="claimAchievedGoal"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -449,6 +459,8 @@
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
                         android:onClick="claimAchievedGoal"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -532,6 +544,8 @@
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
                         android:onClick="claimAchievedGoal"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -600,6 +614,8 @@
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
                         android:onClick="claimAchievedGoal"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -670,6 +686,8 @@
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
                         android:onClick="claimAchievedGoal"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
                         android:orientation="vertical">
 
                         <LinearLayout

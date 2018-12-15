@@ -74,7 +74,7 @@ public class Footprint2 extends AppCompatActivity {
         skipbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                Intent intent=new Intent(Footprint2.this,Footprint4.class);
+                Intent intent=new Intent(Footprint2.this,Footprint5.class);
                 startActivity(intent);
             }
         });

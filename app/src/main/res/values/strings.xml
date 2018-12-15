@@ -51,6 +51,12 @@
     <string name="distance">How far do you travel every day?</string>
     <string name="start_address">Start Address</string>
     <string name="end_address">End Address</string>
+    <string name="dist_description">Enter your start and end location and we\'ll calculate it for you</string>
+    <string name="shower">How long do you shower per day?</string>
+    <string name="minutes">minutes</string>
+    <string name="teethbrushing">Do you leave the faucet on when you brush your teeth?</string>
+    <string name="cont_stats">Continue to stats page</string>
+    <string name="stats_desc">All set! Check out the goals tab to claim resources for doing sustainable acts.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -68,6 +74,9 @@
     <string name="read_goal3">read an article about the EPA</string>
     <string name="title_activity_footprint4">Footprint4</string>
     <string name="title_home">Home</string>
+    <string name="title_activity_footprint5">Footprint5</string>
+    <string name="title_activity_footprint6">Footprint6</string>
+    <string name="title_activity_footprint7">Footprint7</string>
     <string name="reduce_goal1_value">5</string>
     <string name="reduce_goal2_value">20</string>
     <string name="reduce_goal3_value">25</string>
