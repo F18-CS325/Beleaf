@@ -63,9 +63,12 @@
     <string name="water_stat">water usage</string>
     <string name="you">you</string>
     <string name="user_avg">user average</string>
+    <string name="update1">How many days did you go to work/school this week?</string>
+    <string name="update2">How long did you shower per day?</string>
+    <string name="update3">How many days did you leave the faucet on while brushing?</string>
+    <string name="update_title">update stats</string>
+    <string name="days">days</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_footprint">Footprint</string>
     <string name="goals_button_claim">claim</string>
     <string name="goals_button_nudge">set nudge</string>
@@ -93,4 +96,5 @@
     <string name="read_goal2_value">6</string>
     <string name="read_goal3_value">1</string>
     <string name="title_activity_stats">Stats</string>
+    <string name="title_activity_update_stats">UpdateStats</string>
 </resources>
