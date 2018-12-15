@@ -6,26 +6,27 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 
-public class dFragment extends DialogFragment {
+public class ClaimGoalDialog extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         return new AlertDialog.Builder(getActivity())
                 // Set Dialog Title
-                .setTitle("save the earth!")
+                .setTitle("Goal achieved!")
                 // Set Dialog Message
-                .setMessage("claim this resource?")
+                .setMessage("Claim this resource?")
 
                 // Positive button
                 .setPositiveButton("claim", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        //maybe add overlay or another dialog indicating success
+                        DialogFragment dFragment = new ClaimGoalDialog();
+                        dFragment.show(getSupportFragmentManager(), "alert dialog");
                     }
                 })
 
                 // Negative Button
                 .setNegativeButton("cancel", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog,	int which) {
-                        // Do something else
+                        // Do nothing
                     }
                 }).create();
     }

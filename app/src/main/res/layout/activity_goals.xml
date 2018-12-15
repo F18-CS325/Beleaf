@@ -82,6 +82,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
+                        android:onClick="claimAchievedGoal"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -154,6 +155,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
+                        android:onClick="claimAchievedGoal"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -223,6 +225,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
+                        android:onClick="claimAchievedGoal"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -263,7 +266,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:orientation="horizontal"
-                            android:visibility="visible">
+                            android:visibility="gone">
 
                             <Button
                                 android:id="@+id/reduce_goal3_claim"
@@ -308,6 +311,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
+                        android:onClick="claimAchievedGoal"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -377,6 +381,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
+                        android:onClick="claimAchievedGoal"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -443,6 +448,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
+                        android:onClick="claimAchievedGoal"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -525,6 +531,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
+                        android:onClick="claimAchievedGoal"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -592,6 +599,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
+                        android:onClick="claimAchievedGoal"
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -661,6 +669,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:layout_marginBottom="4dp"
+                        android:onClick="claimAchievedGoal"
                         android:orientation="vertical">
 
                         <LinearLayout
