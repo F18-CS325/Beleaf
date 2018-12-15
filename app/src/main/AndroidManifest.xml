@@ -84,7 +84,11 @@
             android:theme="@style/Theme.AppCompat" />
         <activity
             android:name=".Stats"
-            android:label="stats"
+            android:label="footprint"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".UpdateStats"
+            android:label="footprint"
             android:theme="@style/Theme.AppCompat"></activity>
     </application>
 
