@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class UpdateStats extends AppCompatActivity {
+public class stats2 extends AppCompatActivity {
 
     private TextView mTextMessage;
 
@@ -21,27 +21,27 @@ public class UpdateStats extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_news:
-                    Intent intentNews = new Intent(UpdateStats.this, News.class);
+                    Intent intentNews = new Intent(stats2.this, News.class);
                     startActivity(intentNews);
                     //mTextMessage.setText(R.string.title_news);
                     break;
                 case R.id.navigation_footprint:
-                    Intent intentFoot = new Intent(UpdateStats.this, Footprint.class);
+                    Intent intentFoot = new Intent(stats2.this, Footprint.class);
                     startActivity(intentFoot);
                     //mTextMessage.setText(R.string.title_footprint);
                     break;
                 case R.id.navigation_forest:
-                    Intent intentForest = new Intent(UpdateStats.this, MainActivity.class);
+                    Intent intentForest = new Intent(stats2.this, MainActivity.class);
                     startActivity(intentForest);
                     //mTextMessage.setText(R.string.title_forest);
                     break;
                 case R.id.navigation_goals:
-                    Intent intentGoal = new Intent(UpdateStats.this, Goals.class);
+                    Intent intentGoal = new Intent(stats2.this, Goals.class);
                     startActivity(intentGoal);
                     //mTextMessage.setText(R.string.title_goals);
                     break;
                 case R.id.navigation_me:
-                    Intent intentMe = new Intent(UpdateStats.this, Me.class);
+                    Intent intentMe = new Intent(stats2.this, Me.class);
                     startActivity(intentMe);
                     //mTextMessage.setText(R.string.title_me);
                     break;
@@ -53,17 +53,17 @@ public class UpdateStats extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_update_stats);
+        setContentView(R.layout.activity_stats2);
 
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
-        Button button = (Button) findViewById(R.id.button2);
+        Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                Intent intent=new Intent(UpdateStats.this,stats2.class);
+                Intent intent=new Intent(stats2.this,UpdateStats.class);
                 startActivity(intent);
             }
         });
