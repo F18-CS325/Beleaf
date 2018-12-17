@@ -97,4 +97,5 @@
     <string name="read_goal3_value">1</string>
     <string name="title_activity_stats">Stats</string>
     <string name="title_activity_update_stats">UpdateStats</string>
+    <string name="title_activity_nudges">Nudges</string>
 </resources>
