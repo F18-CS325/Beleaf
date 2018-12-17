@@ -14,29 +14,26 @@
             android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".News"
             android:label="news"
-            android:theme="@style/Theme.AppCompat">
-        </activity>
+            android:theme="@style/Theme.AppCompat"></activity>
         <activity
             android:name=".Me"
             android:label="me"
-            android:theme="@style/Theme.AppCompat">
-        </activity>
+            android:theme="@style/Theme.AppCompat"></activity>
         <activity
             android:name=".Goals"
             android:label="goals"
-            android:theme="@style/Theme.AppCompat">
-        </activity>
+            android:theme="@style/Theme.AppCompat"></activity>
         <activity
             android:name=".Footprint"
             android:label="footprint"
-            android:theme="@style/Theme.AppCompat">
-        </activity>
+            android:theme="@style/Theme.AppCompat"></activity>
         <activity
             android:name=".Footprint2"
             android:label="footprint"
@@ -68,8 +65,11 @@
         <activity
             android:name=".UpdateStats"
             android:label="footprint"
-            android:theme="@style/Theme.AppCompat">
-        </activity>
+            android:theme="@style/Theme.AppCompat"></activity>
+        <activity
+            android:name=".Nudge"
+            android:label="nudge settings"
+            android:theme="@style/Theme.AppCompat"></activity>
     </application>
 
 </manifest>
