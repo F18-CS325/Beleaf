@@ -99,4 +99,5 @@
     <string name="title_activity_update_stats">UpdateStats</string>
     <string name="title_activity_nudges">Nudges</string>
     <string name="title_activity_nudge">Nudge</string>
+    <string name="title_activity_stats2">stats2</string>
 </resources>

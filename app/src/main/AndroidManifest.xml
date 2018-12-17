@@ -21,19 +21,19 @@
         <activity
             android:name=".News"
             android:label="news"
-            android:theme="@style/Theme.AppCompat"></activity>
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name=".Me"
             android:label="me"
-            android:theme="@style/Theme.AppCompat"></activity>
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name=".Goals"
             android:label="goals"
-            android:theme="@style/Theme.AppCompat"></activity>
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name=".Footprint"
             android:label="footprint"
-            android:theme="@style/Theme.AppCompat"></activity>
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name=".Footprint2"
             android:label="footprint"
@@ -65,10 +65,14 @@
         <activity
             android:name=".UpdateStats"
             android:label="footprint"
-            android:theme="@style/Theme.AppCompat"></activity>
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name=".Nudge"
             android:label="nudge settings"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".stats2"
+            android:label="footprint"
             android:theme="@style/Theme.AppCompat"></activity>
     </application>
 
